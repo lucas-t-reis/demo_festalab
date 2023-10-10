@@ -6,4 +6,9 @@ class User < ApplicationRecord
     validates :cpf, cpf: { message: MessagesHelper.invalid }
 
     validates :phone, phone: { message: MessagesHelper.invalid }
+
+    scope :search, -> (query) {
+        where("name LIKE ? OR email LIKE ? OR phone LIKE ? OR cpf LIKE ?",
+                "%#{query}%", "%#{query}%", "%#{query}%", "%#{query}%")
+    }
 end
