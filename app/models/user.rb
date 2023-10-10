@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-    validates :name, :email, :cpf, presence: { message: MessagesHelper.blank }
+    validates :name, presence: { message: MessagesHelper.blank }
 
     validates :email, email: { message: MessagesHelper.invalid }, uniqueness: { message: MessagesHelper.already_registered }
 

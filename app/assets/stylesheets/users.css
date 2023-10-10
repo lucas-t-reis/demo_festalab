@@ -16,6 +16,7 @@ h1 {
   margin: 10px 0;
 }
 .center-text input[type="submit"] {
+  font-size: large;
   padding: 0.7rem 1.2rem;
   border-radius: 10px;
   background-color: #f2f2f2;
@@ -26,6 +27,7 @@ h1 {
   background-color: #e0e0e0;
 }
 .center-text input[type="text"] {
+  font-size: large;
   padding: 0.5rem 1rem;
   border-radius: 10px;
   border: 1px solid #ddd;
@@ -52,6 +54,7 @@ h1 {
 }
 .card .field input,
 .card .field button {
+  font-size: large;
   width: 90%;
   padding: 0.5rem;
   border-radius: 5px;
@@ -98,6 +101,7 @@ a:hover {
 }
 
 .red-button {
+  font-size: large;
   background-color: #e74c3c;
   color: white;
 }
