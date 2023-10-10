@@ -1,13 +1,13 @@
 module MessagesHelper
     def self.invalid
-        "inválido!"
+        "invalid!"
     end
 
     def self.already_registered
-        "já cadastrado."
+        "already registered."
     end
 
     def self.blank
-        "não pode ser vazio."
+        "can't be blank."
     end
 end
